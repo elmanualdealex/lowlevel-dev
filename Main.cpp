@@ -1,10 +1,13 @@
 #include <iostream>
 #include <string>
-#include <math.h>
 
 int main(void)
 {
     std::string name;
-    std::cout << "Hola" << std::endl;
+
+    std::cout << "Introduce tu nombre: " << '\n';
+    std::cin >> name;
+    std::cout << "Bienvenido, " << name << "!" << std::endl;
+
     return 0;
 }
